@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.7.6
+  version: "1.1.1"
 
 package:
   name: jid
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/simeji/jid/archive/v${{ version }}.tar.gz
-  sha256: 0912050b3be3760804afaf7ecd6b42bfe79e7160066587fbc0afa5324b03fb48
+  sha256: 5f4c200625f0a1eb7a1bdb5578693fa30fbc935eb66608c9bb6d7aef90566bd8
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
